@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+p, h1, h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+input, textarea {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+section h2 {
+    padding-left: 15px;
+}
+
+.scaffold {
+    margin-top: 60px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+.nav {
+    margin: 15px 0px;
+    padding: 30px;
+    text-align: end;
+    background-color: rgb(142, 18, 18);
+}
+ 
+.products {
+    height: 245px;
+    padding: 60px;
+    text-align: center;
+    margin: 15px 0px;
+    background-color: rgb(142, 18, 18);
+}
+
+.services {
+    margin: 15px 0px;
+    padding: 80px;
+    text-align: center;
+    background-color: rgb(142, 18, 18);
+    
+    height: 290px;
+}
+
+.logo {
+    background-color: rgb(142, 18, 18);
+    text-align: center;
+    margin: 15px 0px;
+    padding: 30px;
+}
+
+.hero-image {
+   
+    padding: 140px;
+    text-align: center;
+    background-color: rgb(142, 18, 18);
+    margin: 15px 0px;
+    height: 410px;
+}  
+
+.footer {
+    
+    text-align: center;
+    margin: 13px 0px;
+    padding: 40px;
+    height: 245px;
+    background-color: rgb(142, 18, 18);
+}
+
+
+
+
+
+
+
